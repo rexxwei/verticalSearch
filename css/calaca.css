@@ -22,7 +22,7 @@ body {
 .jumbotron {
   height: 280px;
   width: 100%;
-  background-color: #5fa5f5;
+  background-color: #335985;
 }
 .title {
   font-size: 40px;
@@ -69,6 +69,7 @@ body {
 /* Results */
 .results-container {
   height: 100%;
+  /* height: 600px; */
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -90,9 +91,12 @@ body {
 #pagination-details {
   float: right;
 }
+
+/* setting for results container*/
 .results {
   width: 90%;
-  height: 500px;
+  /* height: 100%; */
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -100,11 +104,14 @@ body {
   overflow: auto;
 }
 
+/* setting for page preview container*/
 .results-preview {
   width: 95%;
-  height: 100%;
+  /* height: 100%; */
+  height: 600px;
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
+  margin-right: 5px;
   background-color: #fff;
   border-radius: 5px;
   /* overflow: auto; */
@@ -137,9 +144,9 @@ body {
 
 /* Result */
 .result {
-  margin-bottom: 10px;
-  padding: 10px;
-  border-bottom: 10px solid #ecf0f1;
+  margin-bottom: 3px;
+  padding: 5px;
+  border-bottom: 5px solid #ecf0f1;
 }
 
 .result a:link,
@@ -152,7 +159,7 @@ body {
 }
 
 .result a h2 {
-  font-size: 20px;
+  font-size: 15px;
   color: #ed4877;
 }
 
