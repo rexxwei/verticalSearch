@@ -21,10 +21,10 @@
 var CALACA_CONFIGS = {
   // url: "https://elastic:QGvogh5VBAeiutC54IkSUyMy@hw5.es.us-central1.gcp.cloud.es.io:9243/",
   // index_name: "hw5_data",
-  url: "http://44.201.138.152:9200",
+  url: "http://34.16.158.249:9200",
   index_name: "vs01",
   // type: "document",
   // field: "TEXT",
-  size: 200,
-  search_delay: 500,
+  size: 50,
+  search_delay: 300,
 };
