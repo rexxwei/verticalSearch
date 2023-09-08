@@ -11,7 +11,7 @@ Link of live demo page can be found at: <br>
 https://rexxwei.github.io/portfolio/
 
 
-Rrerequisites
+Prerequisites
 ----
 To use this interface, there are some setps need to be done beforehand.<br>
 This repository doesn't include code for those purpose.
