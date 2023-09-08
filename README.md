@@ -18,7 +18,7 @@ Techniques
   - JavaScript, CSS, html
   - Google Cloud Platform
   - Appache2
-  - Calaca (provide by MIT License)
+  - Calaca (licensed by MIT License)
 
 
 How to Use the Project
@@ -32,4 +32,4 @@ index_name: "your index name",
 
 Demo
 =========
-![calaca-demo](https://s3.amazonaws.com/calaca/calaca-demo.gif "Calaca demo")
+![calaca-demo](image/vsedemo.gif "Demo")
