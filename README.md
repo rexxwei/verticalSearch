@@ -34,7 +34,7 @@ If you want to deploy online, you might also need knowledge about:
   - Backend Server (like Appache, Flask or dJango)
 
 
-How to Use the Project
+How to Use
 ----
 If you have a Elasticsearch server (local or on the cloud), you can download the repository and change 'url' and 'index_name' setting of 'config.js' (in 'js' folder).<br>
 Change the ip and index name to your server hosting Elasticsearch instance.
