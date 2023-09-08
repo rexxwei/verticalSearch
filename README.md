@@ -14,7 +14,7 @@ https://rexxwei.github.io/portfolio/
 Rrerequisites
 ----
 To use this interface, there are some setps need to be done beforehand.<br>
-This repository doesn't include code for these purpose.
+This repository doesn't include code for those purpose.
 
   - Data Collection (eg. collecting 40,000 webpages)
   - Database (Elasticsearch is better for this project)
