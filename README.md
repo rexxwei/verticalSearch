@@ -1,24 +1,36 @@
-Vertical Search Engine
+Vertical Search Engine (WUI)
 =========
-This project is one of the project I finished for class CS6200 Information Retrival. The function of it is that the application can render
-the webpages that related to user queries.
-The Elasticsearch server contained information of 40,000 webpages that related to the topic: the immigration history of United State.
-When user input a piece of query, the application will return the most related result (web pages) and display on the left pane.
-The final result of the project is deployed on Google Cloud Platform for demonstration.
+The code in this repository is the webpage user interface for a Vertical Search Engine. <br>
+A Vertical Search Engine contain the information about a specific topic. The one I did <br>
+is about the immigration history of United States. 
+When user input a query, the application will return the most related result (webpages).<br>
+A list of top 50 result will display on the right pane sorted by matching scores.<br>
+The preview of the first result webpage will be rendered on the left pane.<br>
 
-Link of demo page can be found at: 
+Link of live demo page can be found at: <br>
 https://rexxwei.github.io/portfolio/
+
+
+Rrerequisites
+----
+To use this interface, there are some setps need to be done beforehand. 
+
+  - Data Collection (eg. collecting 40,000 webpages)
+  - Database (Elasticsearch is better for this project)
 
 
 Techniques
 ----
-  - WebScraping
+Below skills will contribute to accomplish your own deployment of the project.
+  - Data Collecting (like WebScraping or working with API)
   - Text Processing (NLP)
-  - Elasticsearch
-  - JavaScript, CSS, html
-  - Google Cloud Platform
-  - Appache2
-  - Calaca (licensed by MIT License)
+  - Database Server (eg. Elasticsearch)
+  - JavaScript, CSS, html <br>
+
+The project can be deployed locally. <br>
+If you want to deploy online, you might also need knowledge about:
+  - Cloud Platform (AWS/GCP/Azure)
+  - Backend Server (like Appache, Flask or dJango)
 
 
 How to Use the Project
@@ -29,6 +41,9 @@ Change the ip and index name to your server hosting Elasticsearch instance.
 url: "your Elasticsearch server address",
 index_name: "your index name",
 ```
+After the config is set up, open 'index.html' in browser. <br>
+The project should work well now.
+
 
 Demo
 =========
