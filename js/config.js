@@ -19,12 +19,8 @@
  */
 
 var CALACA_CONFIGS = {
-  // url: "https://elastic:QGvogh5VBAeiutC54IkSUyMy@hw5.es.us-central1.gcp.cloud.es.io:9243/",
-  // index_name: "hw5_data",
-  url: "http://34.16.158.249:9200",
-  index_name: "vs01",
-  // type: "document",
-  // field: "TEXT",
+  url: "your server ip",
+  index_name: "your index name",
   size: 50,
   search_delay: 300,
 };
