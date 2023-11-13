@@ -19,8 +19,8 @@
  */
 
 var CALACA_CONFIGS = {
-  url: "your server ip",
-  index_name: "your index name",
+  url: "http://34.16.134.9:9200",
+  index_name: "vs01",
   size: 50,
   search_delay: 300,
 };

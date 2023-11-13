@@ -11,10 +11,10 @@ Link of live demo page can be found at: <br>
 https://rexxwei.github.io/portfolio/
 
 
-Prerequisites
+Rrerequisites
 ----
-To use this interface, there are some setps need to be done beforehand.<br>
-This repository doesn't include code for those purpose.
+To use this interface, there are some setps need to be done beforehand. <br>
+This repository doesn't include code for those purposes.
 
   - Data Collection (eg. collecting 40,000 webpages)
   - Database (Elasticsearch is better for this project)
@@ -34,7 +34,7 @@ If you want to deploy online, you might also need knowledge about:
   - Backend Server (like Appache, Flask or dJango)
 
 
-How to Use
+How to Use the Project
 ----
 If you have a Elasticsearch server (local or on the cloud), you can download the repository and change 'url' and 'index_name' setting of 'config.js' (in 'js' folder).<br>
 Change the ip and index name to your server hosting Elasticsearch instance.
